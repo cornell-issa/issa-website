@@ -21,6 +21,8 @@ nav {
     font-size: 20px;
     height: 50px;
     line-height: 50px;
+    position: fixed;
+    z-index: 1865;
     width: 100%;
 }
 
@@ -67,4 +69,13 @@ nav > a:hover {
 
 .hero-body#issa-hero .container .subtitle {
   font-size: 40px;
+}
+
+/* Content */
+.content.container {
+    margin: 20px auto;
+}
+
+.content.container b {
+    font-weight: bold;
 }
