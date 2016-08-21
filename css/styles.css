@@ -1,3 +1,4 @@
+/* If you've gotten this far, there's an easter egg waiting for you! Might be a little obscure, but you'll chuckle when you see it. :) */
 @import 'https://fonts.googleapis.com/css?family=Muli';
 /* Body Styles */
 body {
@@ -9,7 +10,9 @@ body {
     margin: 0 auto;
     width: 70%;
 }
-
+a, a:hover {
+  transition: 0.3s;
+}
 /* Navigation */
 .level:not(:last-child) {
     margin-bottom: 0;
@@ -22,8 +25,8 @@ nav {
     height: 50px;
     line-height: 50px;
     position: fixed;
-    z-index: 1865;
     width: 100%;
+    z-index: 1865;
 }
 
 nav #nav-mid {
@@ -69,6 +72,7 @@ nav > a:hover {
 
 .hero-body#issa-hero .container .subtitle {
   font-size: 40px;
+  letter-spacing: 2px;
 }
 
 /* Content */
@@ -78,4 +82,22 @@ nav > a:hover {
 
 .content.container b {
     font-weight: bold;
+}
+
+/* About Page */
+medium a, medium a:visited {
+  border-bottom: 0 !important;
+  color: #1fc8db !important;
+}
+
+em {
+  color: rgba(0,0,0,0.5);
+  font-weight: bold;
+}
+
+/* Calendar */
+iframe {
+  border: 0;
+  height: 600px;
+  width: 100%;
 }
